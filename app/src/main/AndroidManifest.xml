@@ -11,11 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeVirtualScroll"
-        tools:targetApi="31">
+        android:debuggable="true"
+        tools:targetApi="31"
+        tools:ignore="HardcodedDebugMode">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label=android_trace_layer"@string/app_name"
             android:theme="@style/Theme.ComposeVirtualScroll">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
